@@ -5,6 +5,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Outer />
+  },
+  {
+    path: "/personagens",
+    element: <Personagens />
   }
 ])
 
