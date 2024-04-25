@@ -14,6 +14,9 @@ export default {
       amber: colors.amber,
       pink: colors.pink,
       stone: colors.stone
+    },
+    fontFamily: {
+      'poppins': 'Poppins',
     }
   },
   plugins: [],

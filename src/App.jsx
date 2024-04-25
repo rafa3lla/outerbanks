@@ -1,17 +1,16 @@
-import Header from "./components/Header"
-import Outer from "./components/Outer"
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Outer from './pages/Outer';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Outer />
+  }
+])
 
 
 export default function App() {
   return(
-    <div className="bg-stone-50">
-      <header>
-        <Header />
-      </header>
-
-      <main>
-        <Outer />
-      </main>
-    </div>
+    <RouterProvider router={router}/>
   )
 }
