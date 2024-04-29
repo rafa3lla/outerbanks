@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Outer from './pages/Outer';
+import Personagens from "./pages/Personagens";
 
 const router = createBrowserRouter([
   {

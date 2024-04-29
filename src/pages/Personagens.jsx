@@ -4,10 +4,9 @@ export default function Personagens() {
     return(
         <div>
             <Header />
-
-            <main>
+            <section>
                 <h2 className="text-3xl font-bold">Personagens</h2>
-            </main>
+            </section>
         </div>
     )
 }
